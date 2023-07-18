@@ -1,6 +1,6 @@
 package com.example.latihan_api.app
 
-import com.example.latihan_api.model.BarangModel
+import com.example.latihan_api.model.SekolahModel
 import com.example.latihan_api.model.ResponseModel
 import retrofit2.Call
 import retrofit2.http.Body
@@ -13,9 +13,9 @@ interface ApiService {
     @FormUrlEncoded
     @POST("tblProduk/save")
     fun saveBarang(
-        @Body data: BarangModel
+        @Body data: SekolahModel
     ): Call<ResponseModel>
 
-    @GET("barang")
-    fun getBarang(): Call<ResponseModel>
+    @GET("sekolah")
+    fun getSekolah(): Call<ResponseModel>
 }

@@ -19,52 +19,45 @@
         android:src="http://192.168.17.245/laravel_1/storage/app/public/1.jpeg"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:id="@+id/img_produk"/>
+        android:id="@+id/foto"/>
 
 
     <TextView
-        android:id="@+id/tvnama"
+        android:id="@+id/tvkode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama Produk"
+        android:text="Kode"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="40dp"
         android:textColor="@color/black"
         />
 
     <TextView
-        android:id="@+id/tvharga"
+        android:id="@+id/tvnama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rp.0"
+        android:text="nama"
         android:layout_marginLeft="40dp"
         android:textColor="@color/black"
         />
 
     <TextView
-        android:id="@+id/tvdeskripsi"
+        android:id="@+id/tvalamat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Deskripsi"
+        android:text="alamat"
         android:layout_marginLeft="40dp"
         android:textColor="@color/black"
         />
 
     <TextView
-        android:id="@+id/tvcategory"
+        android:id="@+id/tvuangmasuk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kategori"
+        android:text="uang"
         android:layout_marginLeft="40dp"
         android:textColor="@color/black"
         />
-    <TextView
-        android:id="@+id/jjj"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kategori"
-        android:layout_marginLeft="40dp"
-        android:textColor="@color/black"
-        />
+
 </LinearLayout>
 </androidx.cardview.widget.CardView>
